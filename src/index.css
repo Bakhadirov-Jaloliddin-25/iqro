@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  @font-face {
+    font-family: "k2d";
+    src: url(./assets/fonts/k2d/K2D-Medium.ttf);
+  }
+  @font-face {
+    font-family: "inter";
+    src: url(./assets/fonts/inter/static/Inter_18pt-Medium.ttf);
+  }
+  @font-face {
+    font-family: "poppins";
+    src: url(./assets/fonts/poppins/Poppins-Medium.ttf);
+  }
+}
